@@ -34,7 +34,7 @@ function fortune(ctx, body = null, status = 200) {
 }
 
 router.get('/api/services', async (ctx, next) => {
-    const body = services.map(o => ({id: o.id, name: o.name, price: o.price}))
+    const body = services.map(o => ({id: o.id, name: o.name, price: o.price}));
     return fortune(ctx, body);
 });
 router.get('/api/services/:id', async (ctx, next) => {

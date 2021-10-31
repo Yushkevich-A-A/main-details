@@ -1,0 +1,56 @@
+.item {
+    border: 1px solid #828990;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item:nth-child( n + 2 ) {
+    border-top: none;
+}
+
+.item-info {
+    display: flex;
+}
+
+.item-price,
+.item-name {
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.item-price::after {
+    content: 'руб';
+    display: inline-block;
+}
+
+.item-actions {
+    display: flex;
+    align-items: center;
+}
+
+.button-loading,
+.button-edit,
+.button-delete {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-edit::before {
+    content: '\270E';
+    display: inline-block;
+    color: white;
+}
+
+.button-delete::before {
+    content: '\2716';
+    display: inline-block;
+    color: white;
+}

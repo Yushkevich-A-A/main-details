@@ -1,0 +1,14 @@
+.error-fetch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 15px;
+    background-color: rgb(250, 202, 202);
+    color: rgb(99, 10, 10);
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: 24px;
+}
