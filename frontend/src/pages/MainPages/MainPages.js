@@ -17,8 +17,7 @@ function MainPages(props) {
     }, []);
 
     const handleReREquest = () => {
-        console.log('перезапрос')
-        // dispatch(serviceFetchListRequest());
+        dispatch(serviceFetchListRequest());
     }
 
     return (
